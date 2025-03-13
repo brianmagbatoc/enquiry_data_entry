@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <section class="hero is-primary is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Enquiry Data Entry Form</h1>
+        </div>
+      </div>
+    </section>
+    <form id="form" class="container m-4 pl-4" method="POST">
+
+      <div class="field">
+        <label class="label">Date</label>
+        <div class="control">
+          <input
+            class="input"
+            type="date"
+            placeholder="Date"
+            name="Date"
+          />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">FOS</label>
+        <div class="control">
+          <div class="select">
+            <select name="FOS">
+              <option value="" selected disabled></option>
+              <option value="Sophia">Sophia</option>
+              <option value="Daniel">Daniel</option>
+              <option value="FSM">FSM</option>
+              <option value="Emma">Emma</option>
+              <option value="Ross">Ross</option>
+              <option value="Rochelle">Rochelle</option>
+              <option value="Emtiaz">Emtiaz</option>
+              <option value="Kirollos">Kirollos</option>
+              <option value="Alan">Alan</option>
+              <option value="n/a">n/a</option>
+              <option value="Ar-Jay">Ar-Jay</option>
+              <option value="Brian">Brian</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Clinician</label>
+        <div class="control">
+          <div class="select">
+            <select name="Clinician">
+              <option value="" selected disabled></option>
+              <option value="Ross">Ross</option>
+              <option value="Daniel">Daniel</option>
+              <option value="FSM">FSM</option>
+              <option value="Emma">Emma</option>
+              <option value="Emtiaz">Emtiaz</option>
+              <option value="Alan">Alan</option>
+              <option value="Kirollos">Kirollos</option>
+              <option value="Update">Update</option>
+              <option value="Mixed">Mixed</option>
+              <option value="n/a">n/a</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Patient</label>
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            placeholder="Patient"
+            name="Patient"
+          />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Enquiry Channel</label>
+        <div class="control">
+          <div class="select" >
+            <select name="Enquiry Channel">
+              <option value="" selected disabled></option>
+              <option value="Phone">Phone</option>
+              <option value="Website">Website</option>
+              <option value="Walk-in">Walk-in</option>
+              <option value="Text">Text</option>
+              <option value="Email">Email</option>
+              <option value="SM_offer">SM Offer</option>
+              <option value="Birthday">Birthday</option>
+              <option value="Drift">Drift</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">NP/NE</label>
+        <div class="control">
+          <div class="select">
+            <select name="NP/NE">
+              <option value="" selected disabled></option>
+              <option value="NP">NP</option>
+              <option value="NE">NE</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Booked?</label>
+        <div class="control">
+          <div class="select">
+            <select name="Booked?">
+              <option value="" selected disabled></option>
+              <option value="Y">Y</option>
+              <option value="N">N</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">IF not booked, reason why?</label>
+        <div class="control">
+          <div class="select">
+            <select name="IF not booked, reason why?">
+              <option value="" selected disabled></option>
+              <option value="Y">Y</option>
+              <option value="N/A">N/A</option>
+              <option value="Missed">Missed</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">1st text sent</label>
+        <div class="control">
+          <div class="select">
+            <select name="1st text sent">
+              <option value="" selected disabled></option>
+              <option value="Y">Y</option>
+              <option value="N/A">N/A</option>
+              <option value="Missed">Missed</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">2nd call made</label>
+        <div class="control">
+          <div class="select">
+            <select name="2nd call made">
+              <option value="" selected disabled></option>
+              <option value="Y">Y</option>
+              <option value="N/A">N/A</option>
+              <option value="Missed">Missed</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">2nd text made</label>
+        <div class="control">
+          <div class="select">
+            <select name="2nd text made">
+              <option value="" selected disabled></option>
+              <option value="Y">Y</option>
+              <option value="N/A">N/A</option>
+              <option value="Missed">Missed</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Outcome</label>
+        <div class="control">
+          <div class="select">
+            <select name="Outcome">
+              <option value="" selected disabled></option>
+              <option value="Deposit paid">Deposit paid</option>
+              <option value="Replied Y to text">Replied Y to text</option>
+              <option value="No reach - apt cancelled">No reach - apt cancelled</option>
+              <option value="refused - apt cancelled">refused - apt cancelled</option>
+              <option value="N/A">N/A</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-primary" type="submit" id="submit-button">
+            Submit
+          </button>
+        </div>
+        <div class="control">
+          <button class="button is-danger">Cancel</button>
+        </div>
+      </div>
+
+
+    </form>
+    <div
+      id="message"
+      style="
+        display: none;
+        margin: 20px;
+        font-weight: bold;
+        color: green;
+        padding: 8px;
+        background-color: beige;
+        border-radius: 4px;
+        border-color: aquamarine;
+      "
+    ></div>
+
+    <script>
+      document.getElementById("form").addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent the default form submission
+        document.getElementById("message").textContent = "Submitting..";
+        document.getElementById("message").style.display = "block";
+        document.getElementById("submit-button").disabled = true;
+
+        // Collect the form data
+        var formData = new FormData(this);
+        var keyValuePairs = [];
+        for (var pair of formData.entries()) {
+          keyValuePairs.push(pair[0] + "=" + pair[1]);
+        }
+
+        var formDataString = keyValuePairs.join("&");
+
+        // Send a POST request to your Google Apps Script
+        fetch(
+          "https://script.google.com/macros/s/AKfycbyUSeWYQa4-wX1Dv43xRfX5W8n5SVv-MC_ONeFXw3dFglaIutvSVI-_taIR5gFVvSrjgQ/exec",
+          {
+            redirect: "follow",
+            method: "POST",
+            body: formDataString,
+            headers: {
+              "Content-Type": "text/plain;charset=utf-8",
+            },
+          }
+        )
+          .then(function (response) {
+            // Check if the request was successful
+            if (response) {
+              return response; // Assuming your script returns JSON response
+            } else {
+              throw new Error("Failed to submit the form.");
+            }
+          })
+          .then(function (data) {
+            // Display a success message
+            document.getElementById("message").textContent =
+              "Data submitted successfully!";
+            document.getElementById("message").style.display = "block";
+            document.getElementById("message").style.backgroundColor = "green";
+            document.getElementById("message").style.color = "beige";
+            document.getElementById("submit-button").disabled = false;
+            document.getElementById("form").reset();
+
+            setTimeout(function () {
+              document.getElementById("message").textContent = "";
+              document.getElementById("message").style.display = "none";
+            }, 2600);
+          })
+          .catch(function (error) {
+            // Handle errors, you can display an error message here
+            console.error(error);
+            document.getElementById("message").textContent =
+              "An error occurred while submitting the form.";
+            document.getElementById("message").style.display = "block";
+          });
+      });
+    </script>
+  </body>
+</html>
